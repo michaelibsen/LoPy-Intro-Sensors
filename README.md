@@ -15,17 +15,19 @@ The sections below provide further information for each sensor covered
 
 ## Hello World
 
-TODO
+The folder HelloWorld contains a sightly extended LoPy "Hello World" example. 
+In addition to printing "Hello World" the demo also cycles through some colors using the LoPy onboard RGB LED.
 
 ## MEMS microphone
 
-The folder contains a minimal MEMS microphone demo to measure noise levels using the LoPy onboard 
+The folder Microphone-SPW2430 contains a minimal MEMS microphone demo to measure noise levels using the LoPy onboard 
 analog digital converter (ADC). 
 
 ### Links
-* (LoPy ADC information)[https://docs.pycom.io/pycom_esp32/library/machine.ADC.html]
-* (SPW2430 microphone board)[https://www.adafruit.com/product/2716]
-* (LoPy pinout)[https://www.pycom.io/wp-content/uploads/2016/11/lopy_pinout.pdf]
+* [TTN noise measuring use case (blog post)](https://dzone.com/articles/the-things-network-and-eclipse-scout)
+* [LoPy ADC information (official docs)](https://docs.pycom.io/pycom_esp32/library/machine.ADC.html)
+* [SPW2430 microphone (Adafruit breakout board)](https://www.adafruit.com/product/2716)
+* [LoPy pinout](https://www.pycom.io/wp-content/uploads/2016/11/lopy_pinout.pdf)
 
 ## Ambient light sensor
 
@@ -61,9 +63,9 @@ The wiring with the LoPy is as follows (LoPy to BH1750FVI)
 * 3V3 to VCC
 
 ### Links
-* (Using the I2C Bus)[http://www.robot-electronics.co.uk/i2c-tutorial]
-* (Source of example code)[https://docs.pycom.io/pycom_esp32/pycom_esp32/tutorial/includes/i2c.html]
-* (LoPy pinout)[https://www.pycom.io/wp-content/uploads/2016/11/lopy_pinout.pdf]
+* [Using the I2C Bus](http://www.robot-electronics.co.uk/i2c-tutorial)
+* [Source of example code](https://docs.pycom.io/pycom_esp32/pycom_esp32/tutorial/includes/i2c.html)
+* [LoPy pinout](https://www.pycom.io/wp-content/uploads/2016/11/lopy_pinout.pdf)
 
 ## Temperature sensor
 
