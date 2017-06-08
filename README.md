@@ -65,6 +65,7 @@ The wiring with the LoPy is as follows (LoPy to BH1750FVI)
 ### Links
 * [Using the I2C Bus](http://www.robot-electronics.co.uk/i2c-tutorial)
 * [Source of example code](https://docs.pycom.io/pycom_esp32/pycom_esp32/tutorial/includes/i2c.html)
+* [Ambient light sensor BH1750FVI breakout board](http://www.play-zone.ch/en/digitaler-ambient-light-sensor-mit-bh1750fvi.html?___from_store=de)
 * [LoPy pinout](https://www.pycom.io/wp-content/uploads/2016/11/lopy_pinout.pdf)
 
 ## Temperature sensor
